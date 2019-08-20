@@ -1,0 +1,21 @@
+{
+    "name": "mqafcujyie/test01",
+    "description": "msg",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhihong",
+            "email": "717395741@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"php":">=7.0.0"
+	},
+	"autoload":{
+		"psr-4":{
+			"Mqafcujyie\\Test01\\":"src/Mqafcujyie/Test01"
+		}
+	}
+}
